@@ -28,6 +28,15 @@ print(var)
 
 var = "\U00000041lways look on the bright side of life."
 print(var)
+print('-'*80)
+
+print("\u03B1")
+print("\U0001f40d")
+print()
+print('\N{Grinning Face}')
+print('\U0001F600')
+
+
 
 
 
