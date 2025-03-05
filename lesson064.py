@@ -48,5 +48,25 @@ print(s2)
 print(s1 == s2)
 print(s1.upper() == s2.upper())
 print(s1.casefold() == s2.casefold())
+print('-'*80)
+
+name = 'Peter '
+print(name.rstrip(' '))
+
+name = '\t Peter\tJones\t'
+print(name)
+print(name.strip())
+s = 'ababPYTHONabab'
+print(s.strip('ab'))
+
+s = 'ababcababPYTHONabab'
+print(s.strip('ab'))
+
+
+
+
+
+
+
 
 
