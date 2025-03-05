@@ -61,9 +61,23 @@ print(s.strip('ab'))
 
 s = 'ababcababPYTHONabab'
 print(s.strip('ab'))
+print('='*80)
 
+print('Python' + ' ' + 'rocks' + '!')
 
+data = 'Jones,Peter'
+split_data = data.split(',')
+print(split_data)
 
+data = 'Jones,Peter,100'
+split_data = data.split(',')
+print(split_data)
+
+data = 'Jones,Peter'
+split_data = data.split(',')
+last_name, first_name = data.split(',')
+print(last_name)
+print(first_name)
 
 
 
