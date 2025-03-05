@@ -35,8 +35,18 @@ print(data == street)
 print(data.lower() == street.lower())
 print(data.lower())
 print(data.casefold() == street.casefold())
+print('-'*80)
 
+s1 = 'ê'
+s2 = 'ê'
+print(s1 == s2)
 
-
+s1 = '\N{LATIN SMALL LETTER E WITH CIRCUMFLEX}'
+print(s1)
+s2 = '\N{LATIN SMALL LETTER E}\N{COMBINING CIRCUMFLEX ACCENT}'
+print(s2)
+print(s1 == s2)
+print(s1.upper() == s2.upper())
+print(s1.casefold() == s2.casefold())
 
 
