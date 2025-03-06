@@ -6,4 +6,10 @@ print(msg1)
 msg2 = 'open: {}, high: {}, low: {}, close: {}'.format(open_, high, low, close)
 print(msg2)
 
+#msg3 = 'open: {}, high: {}, low: {}, close: {}'.format(open_, high, low)
+#print(msg3)
+
+msg4 = 'open: {}, high: {}, low: {}, close: {}'.format(open_, high, low, close, 100)
+print(msg4)
+
 
