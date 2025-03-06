@@ -115,4 +115,20 @@ print(message.index('action'))
 #print(?str.index)
 print(message.index('action', 9+len('action')))
 print(message.index('action', 11))
+print('='*80)
+
+from timeit import timeit
+message = 'Imagination is more important than knowledge - Einstein'
+print(timeit("'Einstein' in message", globals=globals(), number=10_000_000))
+print(timeit("message.find('Einstein')", globals=globals(), number=10_000_000))
+print(timeit("message.index('Einstein')", globals=globals(), number=10_000_000))
+
+
+
+
+
+
+
+
+
 
