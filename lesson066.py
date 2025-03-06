@@ -22,7 +22,13 @@ msg6 = f'bid: {bid}, ask: {ask}, spread: {ask-bid}'
 print(msg6)
 print()
 
-msg5 = 'bid: {b}, ask: {a}, spread: {spread}'.format(a=ask, spread=ask-bid, b=bid)
-print(msg5)
+msg7 = 'bid: {b}, ask: {a}, spread: {spread}'.format(a=ask, spread=ask-bid, b=bid)
+print(msg7)
+print()
+
+print(format(0.1, '.10f'))
+print('-'*80)
+
+
 
 
