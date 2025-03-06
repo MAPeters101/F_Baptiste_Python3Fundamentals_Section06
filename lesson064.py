@@ -95,11 +95,20 @@ print('-'*80)
 print('Python rocks'.startswith('Python'))
 print('Python rocks'.endswith('rocks'))
 print('Python rocks'.casefold().endswith('Rocks'.casefold()))
+print('-'*80)
 
+message = 'To every action there is a always an equal and opposite reaction.'
+print(message.index('every'))
+#print(message.index('Newton'))
+print()
 
+print(message.find('every'))
+print(message.find('Newton'))
+print()
 
-
-
+print([1, 2, 3, 4].index(2))
+print(2 in [1,2,3,4])
+#print([1, 2, 3, 4].find(2))
 
 
 
