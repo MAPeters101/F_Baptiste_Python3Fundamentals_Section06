@@ -90,3 +90,17 @@ print('Rock' in 'python rocks!')
 print('Rock'.casefold() in 'python rocks!'.casefold())
 print( 1 in [1, 2, 3])
 print( 'abc' in ('abc', 'def'))
+print('-'*80)
+
+print('Python rocks'.startswith('Python'))
+print('Python rocks'.endswith('rocks'))
+print('Python rocks'.casefold().endswith('Rocks'.casefold()))
+
+
+
+
+
+
+
+
+
