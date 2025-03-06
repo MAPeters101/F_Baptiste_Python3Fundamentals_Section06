@@ -78,9 +78,10 @@ split_data = data.split(',')
 last_name, first_name = data.split(',')
 print(last_name)
 print(first_name)
+print('-'*80)
 
-
-
-
+data = ['item 1', 'item 2', 'item 3']
+print(', '.join(data))
+print(','.join('ABCD'))
 
 
