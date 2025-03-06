@@ -83,5 +83,10 @@ print('-'*80)
 data = ['item 1', 'item 2', 'item 3']
 print(', '.join(data))
 print(','.join('ABCD'))
+print('='*80)
 
-
+print('rock' in 'python rocks!')
+print('Rock' in 'python rocks!')
+print('Rock'.casefold() in 'python rocks!'.casefold())
+print( 1 in [1, 2, 3])
+print( 'abc' in ('abc', 'def'))
