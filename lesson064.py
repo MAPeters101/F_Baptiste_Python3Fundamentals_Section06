@@ -109,7 +109,10 @@ print()
 print([1, 2, 3, 4].index(2))
 print(2 in [1,2,3,4])
 #print([1, 2, 3, 4].find(2))
+print('='*80)
 
-
-
+print(message.index('action'))
+#print(?str.index)
+print(message.index('action', 9+len('action')))
+print(message.index('action', 11))
 
