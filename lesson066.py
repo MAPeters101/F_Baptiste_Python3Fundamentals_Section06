@@ -11,5 +11,14 @@ print(msg2)
 
 msg4 = 'open: {}, high: {}, low: {}, close: {}'.format(open_, high, low, close, 100)
 print(msg4)
+print('-'*80)
+
+bid = 1.5760
+ask = 1.5763
+msg5 = 'bid: {}, ask: {}, spread: {}'.format(bid, ask, ask-bid)
+print(msg5)
+
+msg6 = f'bid: {bid}, ask: {ask}, spread: {ask-bid}'
+print(msg6)
 
 
