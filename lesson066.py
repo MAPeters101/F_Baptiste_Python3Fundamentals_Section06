@@ -29,6 +29,15 @@ print()
 print(format(0.1, '.10f'))
 print('-'*80)
 
+msg8 = 'bid: {:.4f}, ask: {:.4f}, spread: {:.4f}'.format(bid, ask, ask-bid)
+print(msg8)
+
+msg9 = f'bid: {bid:.4f}, ask: {ask:.4f}, spread: {(ask-bid):.4f}'
+print(msg9)
+
+msg10 = 'bid: {b:.4f}, ask: {a:.4f}, spread: {spread:.4f}'.format(a=ask, spread=ask-bid, b=bid)
+print(msg10)
+print()
 
 
 
